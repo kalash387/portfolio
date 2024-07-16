@@ -64,186 +64,186 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-softwareSkills: [
-  {
-    skillName: "HTML-5",
-    fontAwesomeClassname: "fab fa-html5",
-    color: "#E34F26" // HTML5 orange-red
-  },
-  {
-    skillName: "CSS3",
-    fontAwesomeClassname: "fab fa-css3-alt",
-    color: "#1572B6" // CSS3 blue
-  },
-  {
-    skillName: "Sass",
-    fontAwesomeClassname: "fab fa-sass",
-    color: "#CC6699" // Sass pink
-  },
-  {
-    skillName: "JavaScript",
-    fontAwesomeClassname: "fab fa-js",
-    color: "#F7DF1E" // JavaScript yellow
-  },
-  {
-    skillName: "TypeScript",
-    custom: true,
-    iconPath: "./assets/icons/typescript.svg",
-    color: "#3178C6" // TypeScript blue
-  },
-  {
-    skillName: "C",
-    custom: true,
-    iconPath: "./assets/icons/c.svg",
-    color: "#A8B9CC" // C blue
-  },
-  {
-    skillName: "C++",
-    custom: true,
-    iconPath: "./assets/icons/c++.svg",
-    color: "#A8B9CC" // C++ blue
-  },
-  {
-    skillName: "C#",
-    custom: true,
-    iconPath: "./assets/icons/c-sharp.svg",
-    color: "#239120" // C# green
-  },
-  {
-    skillName: "Java",
-    custom: true,
-    iconPath: "./assets/icons/java.svg",
-    color: "#A8B9CC" // Java blue
-  },
-  {
-    skillName: "Python",
-    fontAwesomeClassname: "fab fa-python",
-    color: "#3776AB" // Python blue
-  },
-  {
-    skillName: "Node.js",
-    fontAwesomeClassname: "fab fa-node",
-    color: "#339933" // Node.js green
-  },
-  {
-    skillName: "Angular",
-    custom: true,
-    iconPath: "./assets/icons/angular.svg",
-    color: "#A8B9CC" // Angular blue
-  },
-  {
-    skillName: "React.js",
-    fontAwesomeClassname: "fab fa-react",
-    color: "#61DAFB" // React blue
-  },
-  {
-    skillName: "Express.js",
-    custom: true,
-    iconPath: "./assets/icons/expressjs.svg",
-    color: "#000000" // Express.js black
-  },
-  {
-    skillName: "Spring Boot",
-    custom: true,
-    iconPath: "./assets/icons/spring-boot.svg",
-    color: "#6DB33F" // Spring Boot green
-  },
-  {
-    skillName: ".NET",
-    custom: true,
-    iconPath: "./assets/icons/dotnet.svg",
-    color: "#512BD4" // .NET purple
-  },
-  {
-    skillName: "WPF",
-    custom: true,
-    iconPath: "./assets/icons/wpf.svg",
-    color: "#0094BC" // WPF blue
-  },
-  {
-    skillName: "Bootstrap",
-    fontAwesomeClassname: "fab fa-bootstrap",
-    color: "#563d7c" // Bootstrap purple
-  },
-   // {
-  //   skillName: "npm",
-  //   fontAwesomeClassname: "fab fa-npm",
-  //   color: "#CB3837" // NPM red
-  // },
-  // {
-  //   skillName: "MySQL",
-  //   fontAwesomeClassname: "fas fa-database",
-  //   color: "#336791" // SQL database blue
-  // },
-  {
-    skillName: "AWS",
-    fontAwesomeClassname: "fab fa-aws",
-    color: "#FF9900" // AWS orange
-  },
-  {
-    skillName: "Azure",
-    custom: true,
-    iconPath: "./assets/icons/azure.svg",
-    color: "#0078D4" // Azure blue
-  },
-  {
-    skillName: "Microsoft SQL Server",
-    custom: true,
-    iconPath: "./assets/icons/microsoft-sql-server.svg",
-    color: "#CC2927" // Microsoft SQL Server red
-  },
-  {
-    skillName: "MongoDB",
-    custom: true,
-    iconPath: "./assets/icons/mongodb.svg",
-    color: "#47A248" // MongoDB green
-  },
-  {
-    skillName: "MySQL",
-    custom: true,
-    iconPath: "./assets/icons/mysql.svg",
-    color: "#4479A1" // MySQL blue
-  },
-  {
-    skillName: "Derby",
-    custom: true,
-    iconPath: "./assets/icons/derby.svg",
-    color: "#0094BC" // Derby blue
-  },
-  {
-    skillName: "Docker",
-    fontAwesomeClassname: "fab fa-docker",
-    color: "#2496ED" // Docker blue
-  },
-  {
-    skillName: "Kubernetes",
-    custom: true,
-    iconPath: "./assets/icons/kubernetes.svg",
-    color: "#326CE5" // Kubernetes blue
-  },
-  {
-    skillName: "Postman",
-    custom: true,
-    iconPath: "./assets/icons/postman.svg",
-    color: "#FF6C37" // Postman orange
-  },
-  {
-    skillName: "GitHub",
-    fontAwesomeClassname: "fab fa-github",
-    color: "#FFFFFF" // GitHub white
-  },
-  {
-    skillName: "Git",
-    fontAwesomeClassname: "fab fa-git",
-    color: "#FFFFFF" // Git white
-  },
-  {
-    skillName: "Jira",
-    fontAwesomeClassname: "fab fa-jira",
-    color: "#0052CC" // Jira blue
-  },
-],
-display: true // Set false to hide this section, defaults to true
+  softwareSkills: [
+    {
+      skillName: "HTML-5",
+      fontAwesomeClassname: "fab fa-html5",
+      color: "#E34F26" // HTML5 orange-red
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt",
+      color: "#1572B6" // CSS3 blue
+    },
+    {
+      skillName: "Sass",
+      fontAwesomeClassname: "fab fa-sass",
+      color: "#CC6699" // Sass pink
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js",
+      color: "#F7DF1E" // JavaScript yellow
+    },
+    {
+      skillName: "TypeScript",
+      custom: true,
+      iconPath: "./assets/icons/typescript.svg",
+      color: "#3178C6" // TypeScript blue
+    },
+    {
+      skillName: "C",
+      custom: true,
+      iconPath: "./assets/icons/c.svg",
+      color: "#A8B9CC" // C blue
+    },
+    {
+      skillName: "C++",
+      custom: true,
+      iconPath: "./assets/icons/c++.svg",
+      color: "#A8B9CC" // C++ blue
+    },
+    {
+      skillName: "C#",
+      custom: true,
+      iconPath: "./assets/icons/c-sharp.svg",
+      color: "#239120" // C# green
+    },
+    {
+      skillName: "Java",
+      custom: true,
+      iconPath: "./assets/icons/java.svg",
+      color: "#A8B9CC" // Java blue
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python",
+      color: "#3776AB" // Python blue
+    },
+    {
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node",
+      color: "#339933" // Node.js green
+    },
+    {
+      skillName: "Angular",
+      custom: true,
+      iconPath: "./assets/icons/angular.svg",
+      color: "#A8B9CC" // Angular blue
+    },
+    {
+      skillName: "React.js",
+      fontAwesomeClassname: "fab fa-react",
+      color: "#61DAFB" // React blue
+    },
+    {
+      skillName: "Express.js",
+      custom: true,
+      iconPath: "./assets/icons/expressjs.svg",
+      color: "#000000" // Express.js black
+    },
+    {
+      skillName: "Spring Boot",
+      custom: true,
+      iconPath: "./assets/icons/spring-boot.svg",
+      color: "#6DB33F" // Spring Boot green
+    },
+    {
+      skillName: ".NET",
+      custom: true,
+      iconPath: "./assets/icons/dotnet.svg",
+      color: "#512BD4" // .NET purple
+    },
+    {
+      skillName: "WPF",
+      custom: true,
+      iconPath: "./assets/icons/wpf.svg",
+      color: "#0094BC" // WPF blue
+    },
+    {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap",
+      color: "#563d7c" // Bootstrap purple
+    },
+    // {
+    //   skillName: "npm",
+    //   fontAwesomeClassname: "fab fa-npm",
+    //   color: "#CB3837" // NPM red
+    // },
+    // {
+    //   skillName: "MySQL",
+    //   fontAwesomeClassname: "fas fa-database",
+    //   color: "#336791" // SQL database blue
+    // },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws",
+      color: "#FF9900" // AWS orange
+    },
+    {
+      skillName: "Azure",
+      custom: true,
+      iconPath: "./assets/icons/azure.svg",
+      color: "#0078D4" // Azure blue
+    },
+    {
+      skillName: "Microsoft SQL Server",
+      custom: true,
+      iconPath: "./assets/icons/microsoft-sql-server.svg",
+      color: "#CC2927" // Microsoft SQL Server red
+    },
+    {
+      skillName: "MongoDB",
+      custom: true,
+      iconPath: "./assets/icons/mongodb.svg",
+      color: "#47A248" // MongoDB green
+    },
+    {
+      skillName: "MySQL",
+      custom: true,
+      iconPath: "./assets/icons/mysql.svg",
+      color: "#4479A1" // MySQL blue
+    },
+    {
+      skillName: "Derby",
+      custom: true,
+      iconPath: "./assets/icons/derby.svg",
+      color: "#0094BC" // Derby blue
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker",
+      color: "#2496ED" // Docker blue
+    },
+    {
+      skillName: "Kubernetes",
+      custom: true,
+      iconPath: "./assets/icons/kubernetes.svg",
+      color: "#326CE5" // Kubernetes blue
+    },
+    {
+      skillName: "Postman",
+      custom: true,
+      iconPath: "./assets/icons/postman.svg",
+      color: "#FF6C37" // Postman orange
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github",
+      color: "#FFFFFF" // GitHub white
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git",
+      color: "#FFFFFF" // Git white
+    },
+    {
+      skillName: "Jira",
+      fontAwesomeClassname: "fab fa-jira",
+      color: "#0052CC" // Jira blue
+    },
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 
@@ -306,11 +306,11 @@ const workExperiences = {
       date: "September 2021 – July 2023",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-       "Reduced page load times by 40% in an Angular web app, improving user experience by implementing optimization techniques.",
-"Enhanced UI by integrating third-party libraries (DevEx and NGXS).",
-"Developed robust, scalable RESTful APIs using .NET, ensuring seamless backend integration and a 20% reduction in API downtime, leading to enhanced system performance and reliability.",
-"Implemented Python scripts within Dockerfiles to manage and process images inside containers, enhancing automation and efficiency.",
-"Strengthened team’s Angular capabilities by mentoring and training over 50 interns."
+        "Implemented advanced optimization techniques to significantly reduce page load times by 40% in an Angular web application, thereby enhancing user experience.",
+        "Integrated third-party UI libraries (DevEx and NGXS) to enrich frontend interfaces.",
+        "Designed feature-rich desktop applications using WPF, expanding system functionality and user capabilities.",
+        "Developed robust and scalable RESTful APIs using .NET, ensuring smooth backend integration and achieving a 20% reduction in API downtime, resulting in enhanced system performance and reliability.",
+        "Played a key role in fostering team expertise by mentoring and training over 50 interns, thereby strengthening the organization’s Angular development capabilities."
       ]
     },
     {
@@ -320,9 +320,9 @@ const workExperiences = {
       date: "May 2021 – June 2021",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Developed an efficient web-based complaint management system using Java/J2EE technologies, including JSP, Servlets, and a structured Model layer, streamlining user complaint tracking and resolution processes.",
-"Ensured data security by implementing secure data handling practices within the Apache Derby database and integrating user authentication and session management systems.",
-"Collaborated effectively with cross-functional teams to promptly troubleshoot issues, contributing to optimal system performance."]
+        "Streamlined the user complaint tracking and resolution processes by developing an efficient web-based system using Java J2EE technologies such as JSP, Servlets, and a structured Model layer.",
+        "Ensured data security by implementing secure data handling practices within the Apache Derby database and integrating user authentication and session management systems.",
+        "Collaborated effectively with cross-functional teams to promptly troubleshoot issues, contributing to optimalsystem performance."]
     }
   ]
 };
@@ -353,7 +353,7 @@ const bigProjects = {
         {
           name: "Github",
           url: "https://github.com/kalash387/portfolio"
-        }  
+        }
         //  you can add extra buttons here.
       ]
     },
@@ -395,7 +395,7 @@ const achievementSection = {
     {
       title: "The Bits and Bytes of Computer Networking",
       subtitle:
-      "Earned \"The Bits and Bytes of Computer Networking\" certificate by Google, gaining expertise in networking fundamentals, protocols, cloud computing, troubleshooting, and network services.",
+        "Earned \"The Bits and Bytes of Computer Networking\" certificate by Google, gaining expertise in networking fundamentals, protocols, cloud computing, troubleshooting, and network services.",
       image: require("./assets/images/Google.webp"),
       imageAlt: "Google",
       footerLink: [
@@ -412,7 +412,7 @@ const achievementSection = {
       image: require("./assets/images/Python.png"),
       imageAlt: "Python",
       footerLink: [
-        {name: "View Certificate", url: "https://www.coursera.org/account/accomplishments/certificate/K5VSZ7G75DE4"}
+        { name: "View Certificate", url: "https://www.coursera.org/account/accomplishments/certificate/K5VSZ7G75DE4" }
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -425,7 +425,7 @@ const achievementSection = {
       image: require("./assets/images/Javascript.png"),
       imageAlt: "JavaScript",
       footerLink: [
-        {name: "View Certificate", url: "https://www.coursera.org/account/accomplishments/certificate/84ACDNBGURQU"}
+        { name: "View Certificate", url: "https://www.coursera.org/account/accomplishments/certificate/84ACDNBGURQU" }
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -438,41 +438,41 @@ const achievementSection = {
       image: require("./assets/images/Salesforce.png"),
       imageAlt: "Salesforce",
       footerLink: [
-        {name: "View profile", url: "https://www.salesforce.com/trailblazer/kalash-rami"},
+        { name: "View profile", url: "https://www.salesforce.com/trailblazer/kalash-rami" },
         // {
-          //   name: "Final Project",
-          //   url: "https://pakistan-olx-1.firebaseapp.com/"
-          // }
-        ]
-      },
-      {
-        title: "JPMorgan Chase & Co.",
-        subtitle:
-          "Completed JPMorgan Chase & Co. Software Engineering Virtual Experience, mastering React, TypeScript, Python, Git, web applications, financial data analysis, technical communication, and contributing to the open-source community.",
-        image: require("./assets/images/jp-morgan.png"),
-        imageAlt: "JP Morgan Chase & Co.",
-        footerLink: [
-          {
-            name: "View Certificate",
-            url: "https://drive.google.com/file/d/1kDGGBbkuOr70YcFuz6ugCT9CRsM5mn5K/view?usp=sharing"
-          },
-          // {
-          //   name: "Award Letter",
-          //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-          // },
-          // {
-          //   name: "Google Code-in Blog",
-          //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-          // }
-        ]
-      },
-      {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+    {
+      title: "JPMorgan Chase & Co.",
+      subtitle:
+        "Completed JPMorgan Chase & Co. Software Engineering Virtual Experience, mastering React, TypeScript, Python, Git, web applications, financial data analysis, technical communication, and contributing to the open-source community.",
+      image: require("./assets/images/jp-morgan.png"),
+      imageAlt: "JP Morgan Chase & Co.",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1kDGGBbkuOr70YcFuz6ugCT9CRsM5mn5K/view?usp=sharing"
+        },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
+    {
       title: "KPMG",
       subtitle: "Successfully completed the KPMG Data Analytics Consulting Virtual Internship on Forage, mastering data quality assessment, insights generation, and visualization to enhance analytical and problem-solving skills.",
       image: require("./assets/images/KPMG.png"),
       imageAlt: "KPMG",
       footerLink: [
-        {name: "View Certificate", url: "https://drive.google.com/file/d/1ii-NFNhb005jBK2_KyrrrMZmih-QCgJB/view?usp=sharing"},
+        { name: "View Certificate", url: "https://drive.google.com/file/d/1ii-NFNhb005jBK2_KyrrrMZmih-QCgJB/view?usp=sharing" },
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
