@@ -348,17 +348,17 @@ const bigProjects = {
       footerLink: [
         {
           name: "Live Website",
-          url: "http://saayahealth.com/",
+          url: "https://kalash-rami.netlify.app",
         },
         {
           name: "Github",
           url: "https://github.com/kalash387/portfolio"
-        }
+        }  
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/CovidTracker.jpg"),
+      image: require("./assets/images/CovidTracker.png"),
       projectName: "Covid-19 Tracker",
       projectDesc: "Developed a COVID-19 Tracker using React, React-Strap, Spring Boot, and third-party APIs to provide real-time global case updates.",
       footerLink: [
@@ -449,7 +449,7 @@ const achievementSection = {
         title: "JPMorgan Chase & Co.",
         subtitle:
           "Completed JPMorgan Chase & Co. Software Engineering Virtual Experience, mastering React, TypeScript, Python, Git, web applications, financial data analysis, technical communication, and contributing to the open-source community.",
-        image: require("./assets/images/jp-morgan.jpg"),
+        image: require("./assets/images/jp-morgan.png"),
         imageAlt: "JP Morgan Chase & Co.",
         footerLink: [
           {
