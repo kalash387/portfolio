@@ -467,7 +467,7 @@ const achievementSection = {
         ]
       },
       {
-      title: "KPMGs",
+      title: "KPMG",
       subtitle: "Successfully completed the KPMG Data Analytics Consulting Virtual Internship on Forage, mastering data quality assessment, insights generation, and visualization to enhance analytical and problem-solving skills.",
       image: require("./assets/images/KPMG.png"),
       imageAlt: "KPMG",
