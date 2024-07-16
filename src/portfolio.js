@@ -358,7 +358,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Covid Tracker.jpg"),
+      image: require("./assets/images/CovidTracker.jpg"),
       projectName: "Covid-19 Tracker",
       projectDesc: "Developed a COVID-19 Tracker using React, React-Strap, Spring Boot, and third-party APIs to provide real-time global case updates.",
       footerLink: [
