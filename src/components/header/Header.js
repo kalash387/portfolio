@@ -24,6 +24,13 @@ function Header() {
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
 
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
@@ -58,7 +65,12 @@ function Header() {
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">Certifications</a>
+            </li>
+          )}
+          {(
+            <li>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewBlog && (
@@ -69,6 +81,11 @@ function Header() {
           {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
+            </li>
+          )}
+          {(
+            <li>
+              <a href="#education">Education</a>
             </li>
           )}
           {viewResume && (

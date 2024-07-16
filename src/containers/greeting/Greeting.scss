@@ -2,13 +2,13 @@
 
 .main {
   width: 90%;
-  padding: 20px 10px;
+  // padding: 20px 10px;
   margin: 0px auto;
   margin-top: 4rem;
 }
+
 .greet-main {
   width: 90%;
-  padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
 }
@@ -21,18 +21,22 @@
   color: $subTitle !important;
 }
 
-.greeting-main {
-  display: flex;
-}
-
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
 }
+
+.greeting-text-div {
+  width: 50%; /* Adjust the width as needed */
+  height: 50%; /* Adjust the height as needed */
+  margin: 0 auto; /* Center align the div */
+}
+
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
 }
+
 .download-link-button {
   text-decoration: none;
 }
@@ -48,9 +52,14 @@
   line-height: 40px;
 }
 
-.greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+.greeting-image-div {
+  width: 100%;
+  position: relative; /* Ensure the container is positioned relative if it contains absolutely positioned elements */
+}
+
+.greeting-image-div > div {
+  width: 100%;
+  margin-top: -50px; /* Move the SVG container 20px upwards */
 }
 
 .wave-emoji {
@@ -111,7 +120,7 @@
     display: block;
   }
   .greeting-image-div {
-    height: 256px;
+    // height: 156px;
   }
 }
 

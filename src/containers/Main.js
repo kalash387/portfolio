@@ -43,6 +43,8 @@ const Main = () => {
     setIsDark(!isDark);
   };
 
+  
+
   return (
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
@@ -53,16 +55,16 @@ const Main = () => {
             <Header />
             <Greeting />
             <Skills />
-            <StackProgress />
-            <Education />
+            {/* <StackProgress /> */}
             <WorkExperience />
-            <Projects />
-            <StartupProject />
+            {/* <Projects /> */}
             <Achievement />
-            <Blogs />
+            <StartupProject />
+            <Education />
+            {/* <Blogs />
             <Talks />
             <Twitter />
-            <Podcast />
+            <Podcast /> */}
             <Profile />
             <Footer />
             <ScrollToTopButton />

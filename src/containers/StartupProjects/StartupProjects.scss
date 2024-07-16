@@ -1,9 +1,13 @@
 @import "../../_globalColor";
 
-.card-image {
-  max-width: 100%;
+.main {
+  padding-top: 2px;
+}
+
+.project-card-image  {
+  max-width: 100%; /* Ensure images scale within their container */
+  max-height: 250px; /* Limit the height to maintain aspect ratio */
   height: auto;
-  width: 250px;
 }
 .card-title {
   color: $titleColor;
@@ -51,7 +55,7 @@
 }
 .project-image {
   position: relative;
-  height: 250px;
+  height: 350px; /* Adjust the height to match your image aspect ratio */
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -80,6 +84,11 @@
   padding: 0 0.75em;
   cursor: pointer;
   transition: 0.2s ease-in;
+}
+
+.skills-heading {
+  margin-top: 60px;
+  // margin-bottom: 70px;
 }
 
 @media (max-width: 768px) {

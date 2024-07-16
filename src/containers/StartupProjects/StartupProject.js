@@ -1,8 +1,9 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./StartupProjects.scss";
-import {bigProjects} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { bigProjects } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import { FaLink, FaGithub, FaExternalLinkAlt } from 'react-icons/fa'; // Importing FontAwesome icons as an example
 
 export default function StartupProject() {
   function openUrlInNewTab(url) {
@@ -13,12 +14,14 @@ export default function StartupProject() {
     win.focus();
   }
 
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;
   }
+
+
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={1000} distance="40px">
       <div className="main" id="projects">
         <div>
           <h1 className="skills-heading">{bigProjects.title}</h1>
@@ -48,7 +51,7 @@ export default function StartupProject() {
                       <img
                         src={project.image}
                         alt={project.projectName}
-                        className="card-image"
+                        className="project-card-image "
                       ></img>
                     </div>
                   ) : null}
@@ -76,6 +79,9 @@ export default function StartupProject() {
                               }
                               onClick={() => openUrlInNewTab(link.url)}
                             >
+                              {link?.name == "Live Website" && <FaExternalLinkAlt size="11px" style={{ marginRight: '5px', marginBottom: '2px' }} />}
+                              {link?.name == "Github" && <FaGithub size="12px" style={{ marginRight: '5px', marginBottom: '2px' }} />}
+
                               {link.name}
                             </span>
                           );
