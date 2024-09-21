@@ -348,7 +348,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Live Website",
-          url: "https://kalash-rami.netlify.app",
+          url: "https://kalashdevfolio.netlify.app",
         },
         {
           name: "Github",
