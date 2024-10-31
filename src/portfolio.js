@@ -253,6 +253,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "Centennial College",
+      logo: require("./assets/images/Centennial_logo.png"),
+      subHeader: "Mobile Application Development",
+      duration: "September 2024 - April 2025",
+      // desc: "GPA",
+      descBullets: [
+        // "GPA: 3.6/4"
+      ]
+    },
+    {
       schoolName: "Seneca College",
       logo: require("./assets/images/Seneca_Logo.png"),
       subHeader: "Postgraduate degree",
