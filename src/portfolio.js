@@ -110,6 +110,12 @@ https://fontawesome.com/icons?d=gallery */
       color: "#239120" // C# green
     },
     {
+      skillName: "SwiftUI",
+      custom: true,
+      iconPath: "./assets/icons/swiftui.svg",
+      color: "#A8B9CC"
+    },
+    {
       skillName: "Java",
       custom: true,
       iconPath: "./assets/icons/java.svg",
@@ -132,7 +138,7 @@ https://fontawesome.com/icons?d=gallery */
       color: "#A8B9CC" // Angular blue
     },
     {
-      skillName: "React.js",
+      skillName: "React / React Native",
       fontAwesomeClassname: "fab fa-react",
       color: "#61DAFB" // React blue
     },
@@ -155,6 +161,12 @@ https://fontawesome.com/icons?d=gallery */
       color: "#512BD4" // .NET purple
     },
     {
+      skillName: "Android Studio",
+      custom: true,
+      iconPath: "./assets/icons/android-studio.svg",
+      color: "#512BD4"
+    },
+    {
       skillName: "WPF",
       custom: true,
       iconPath: "./assets/icons/wpf.svg",
@@ -164,6 +176,12 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Bootstrap",
       fontAwesomeClassname: "fab fa-bootstrap",
       color: "#563d7c" // Bootstrap purple
+    },
+    {
+      skillName: "Figma",
+      custom: true,
+      iconPath: "./assets/icons/figma.svg",
+      color: "#512BD4"
     },
     // {
     //   skillName: "npm",
@@ -349,11 +367,11 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
       image: require("./assets/images/Portfolio.png"),
       projectName: "Portfolio",
+      techStack: ["React", "Redux", "Context API", "React Typed", "Lottie React"],
       projectDesc: "This portfolio showcases my skills in modern web development, featuring a responsive design and smooth animations built with React, Redux, Context API, and various libraries like React Typed and Lottie React.",
       footerLink: [
         {
@@ -364,13 +382,61 @@ const bigProjects = {
           name: "Github",
           url: "https://github.com/kalash387/portfolio"
         }
-        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/connect4game.png"),
+      projectName: "Connect-4 Game",
+      techStack: ["React", "Bootstrap", "Node", "Express.js", "MongoDB", ""],
+      projectDesc: "Designed and implemented the Connect 4 game project using the MERN stack (MongoDB, Express, React, Node.js), focusing on secure authentication, efficient data storage, and a user-friendly, responsive interface.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/kalash387/Connect-4-Game-FE-and-BE"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/PatientManagementApp.jpeg"),
+      projectName: "Patient Management App",
+      techStack: ["React Native", "Expo", "Node", "Express"],
+      projectDesc: "Developed a React Native app for healthcare providers to manage patient data, integrated with a Node.js Express backend, allowing access to critical metrics like blood pressure, respiratory rate, and oxygen levels for efficient patient monitoring.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/kalash387/SenCare-ReactNative-App"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/CenPhone-Android-App.jpeg"),
+      projectName: "CenPhone Android App",
+      techStack: ["Android Studio"],
+      projectDesc: "CenPhone is an Android app that enables users to browse and order smartphones from top brands like iPhone, Samsung, and Google Pixel. It offers a streamlined selection process with customizable options for model, storage, color, and secure checkout.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/kalash387/CenPhone-Android-App"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/BMIApp.jpeg"),
+      projectName: "BMI App",
+      techStack: ["React Native", "Expo"],
+      projectDesc: "Created a BMI Calculator app using React Native and Expo, offering users an easy-to-use interface to calculate body mass index. The app includes intuitive features like gradient backgrounds and a customizable picker for unit selection, built with expo-linear-gradient and react-native-picker-select.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/kalash387/BMIApp"
+        }
       ]
     },
     {
       image: require("./assets/images/CovidTracker.png"),
-      projectName: "Covid-19 Tracker",
-      projectDesc: "Developed a COVID-19 Tracker using React, React-Strap, Spring Boot, and third-party APIs to provide real-time global case updates.",
+      projectName: "COVID-19 Tracker",
+      techStack: ["React", "React-Strap", "Spring Boot"],
+      projectDesc: "Developed a COVID-19 Tracker using React, React-Strap, Spring Boot, and third-party APIs to provide real-time global case updates with an interactive, user-friendly interface and seamless performance.",
       footerLink: [
         {
           name: "Github",
@@ -381,7 +447,8 @@ const bigProjects = {
     {
       image: require("./assets/images/CMS.png"),
       projectName: "Complaint Management System",
-      projectDesc: "Built a robust Complaint Management System for an internet broadband provider leveraging React, Bootstrap, Java EE, and Derby, delivering secure authentication, effective session management, and real-time tracking.",
+      techStack: ["JSP", "Servlets", "Bootstrap", "Java EE", "Derby Database"],
+      projectDesc: "Built a Complaint Management System for an internet broadband provider using JSP, Servlets, Bootstrap, Java EE, and Derby, with secure authentication and real-time tracking.",
       footerLink: [
         {
           name: "Github",
@@ -392,6 +459,7 @@ const bigProjects = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc

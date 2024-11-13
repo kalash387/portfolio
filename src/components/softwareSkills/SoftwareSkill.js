@@ -19,10 +19,17 @@ import SwaggerIcon from "../../assets/icons/swagger.svg";
 import WpfIcon from "../../assets/icons/wpf.svg";
 import AngularIcon from "../../assets/icons/angular.svg";
 import DerbyIcon from "../../assets/icons/derby.svg";
+import SwiftUI from "../../assets/icons/swiftui.svg";
+import AndroidStudio from "../../assets/icons/android-studio.svg";
+import Figma from "../../assets/icons/figma.svg";
+
 
 
 // Map custom icons
 const iconMapping = {
+  "./assets/icons/android-studio.svg": AndroidStudio,
+  "./assets/icons/figma.svg": Figma,
+  "./assets/icons/swiftui.svg": SwiftUI,
   "./assets/icons/typescript.svg": TypeScriptIcon,
   "./assets/icons/angular.svg": AngularIcon,
   "./assets/icons/azure.svg": AzureIcon,

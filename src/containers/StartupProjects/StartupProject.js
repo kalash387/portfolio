@@ -4,6 +4,7 @@ import { bigProjects } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 import { FaLink, FaGithub, FaExternalLinkAlt } from 'react-icons/fa'; // Importing FontAwesome icons as an example
+import { DiReact, DiNodejs, DiMongodb, DiBootstrap } from "react-icons/di"; // Import tech icons here
 
 export default function StartupProject() {
   function openUrlInNewTab(url) {
@@ -18,7 +19,6 @@ export default function StartupProject() {
   if (!bigProjects.display) {
     return null;
   }
-
 
   return (
     <Fade bottom duration={1000} distance="40px">
@@ -68,6 +68,17 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
+
+                    {/* Tech Stack Section */}
+                    <div className="tech-stack">
+                      <h5 className="tech-stack-title">Tech Stack:</h5>
+                      <p className="tech-stack-text">
+                        {project.techStack && project.techStack.join(", ")}
+                      </p>
+                    </div>
+
+
+
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
@@ -79,8 +90,8 @@ export default function StartupProject() {
                               }
                               onClick={() => openUrlInNewTab(link.url)}
                             >
-                              {link?.name == "Live Website" && <FaExternalLinkAlt size="11px" style={{ marginRight: '5px', marginBottom: '2px' }} />}
-                              {link?.name == "Github" && <FaGithub size="12px" style={{ marginRight: '5px', marginBottom: '2px' }} />}
+                              {link?.name === "Live Website" && <FaExternalLinkAlt size="11px" style={{ marginRight: '5px', marginBottom: '2px' }} />}
+                              {link?.name === "Github" && <FaGithub size="12px" style={{ marginRight: '5px', marginBottom: '2px' }} />}
 
                               {link.name}
                             </span>
