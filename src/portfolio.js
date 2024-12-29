@@ -387,9 +387,13 @@ const bigProjects = {
     {
       image: require("./assets/images/connect4game.png"),
       projectName: "Connect-4 Game",
-      techStack: ["React", "Bootstrap", "Node", "Express.js", "MongoDB", ""],
-      projectDesc: "Designed and implemented the Connect 4 game project using the MERN stack (MongoDB, Express, React, Node.js), focusing on secure authentication, efficient data storage, and a user-friendly, responsive interface.",
+      techStack: ["React", "Redux", "Material UI", "Firebase", "Node.js", "Express.js", "MongoDB", "AWS Lambda"],
+      projectDesc: "Built a modern Connect 4 game featuring real-time multiplayer and smart bot gameplay, implemented with MERN stack, Firebase for real-time updates, and Material UI for a responsive cyber-themed interface.",
       footerLink: [
+        {
+          name: "Live Website",
+          url: "https://connect-4-game-by-kalash.vercel.app/",
+        },
         {
           name: "Github",
           url: "https://github.com/kalash387/Connect-4-Game-FE-and-BE"
