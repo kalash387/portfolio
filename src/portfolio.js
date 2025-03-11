@@ -402,7 +402,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/PatientManagementApp.jpeg"),
-      projectName: "Patient Management App",
+      projectName: "SenCare - Patient Management App",
       techStack: ["React Native", "Expo", "Node", "Express"],
       projectDesc: "Developed a React Native app for healthcare providers to manage patient data, integrated with a Node.js Express backend, allowing access to critical metrics like blood pressure, respiratory rate, and oxygen levels for efficient patient monitoring.",
       footerLink: [
